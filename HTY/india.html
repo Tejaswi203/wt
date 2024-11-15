@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>India Map Slider</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="script.js">
+</head>
+<body>
+
+<div class="slider-container">
+    <div class="slider">
+        <!-- Slide for each state -->
+        <div class="slide" data-state="Maharashtra">
+            <img src="maharashtra.jpg" alt="Maharashtra">
+            <div class="slide-text">Select Maharashtra</div>
+        </div>
+        <div class="slide" data-state="Tamil Nadu">
+            <img src="tamil_nadu.jpg" alt="Tamil Nadu">
+            <div class="slide-text">Select Tamil Nadu</div>
+        </div>
+        <div class="slide" data-state="Karnataka">
+            <img src="karnataka.jpg" alt="Karnataka">
+            <div class="slide-text">Select Karnataka</div>
+        </div>
+        <!-- Add more slides for other states here -->
+    </div>
+
+    <!-- Navigation buttons -->
+    <button class="prev" onclick="changeSlide(-1)">❮</button>
+    <button class="next" onclick="changeSlide(1)">❯</button>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>

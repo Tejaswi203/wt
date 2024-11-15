@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": ".."
+		},
+		{
+			"path": "../../big basket"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "big basket"
+	}
+}
